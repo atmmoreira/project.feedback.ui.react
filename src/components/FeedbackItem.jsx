@@ -16,6 +16,7 @@ function FeedbackItem({ item, handleDelete }) {
 
 FeedbackItem.propTypes = {
   item: PropTypes.object.isRequired,
+  handleDelete: PropTypes.func
 };
 
 export default FeedbackItem;
