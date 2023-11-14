@@ -6,7 +6,7 @@ function FeedbackStats({ feedback }) {
         return acc + curr.rating
     }, 0) / feedback.length;
 
-    avarega = average.toFixed(1).replace(/[.,]0$/, '')
+    average = average.toFixed(1).replace(/[.,]0$/, '')
 
     return (
         <div className="feedback-stats">
