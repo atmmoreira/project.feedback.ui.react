@@ -34,6 +34,8 @@ This is a project to improve my skills with Javascript, React and CSS. Building 
 # Javascript
 # Git / Github
 # React 18.2.0
+# Json-server
+# React Router DOM
 # Framer-Motion 4.1.17
 ```
 
@@ -54,6 +56,7 @@ This is a project to improve my skills with Javascript, React and CSS. Building 
 # Download or clone the repository.
 # Open the project inside your favorite IDE (I use VSCode).
 # To install dependencies of this project, type in the terminal: npm install or npm i.
-# To run this project, type in the terminal: npm run dev.
-# In your favorite Browser, open this URL:  http://localhost:5173/
+# To run this project, type in the terminal: npm run start.
+# In your favorite Browser, open this URL:  http://localhost:5173/ to see the Interface.
+# In your favorite Browser, open this URL:  http://localhost:5000/ to see the API.
 ```
