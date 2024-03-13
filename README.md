@@ -19,7 +19,7 @@
 <br >
 
 ## Description
-This is a project to improve my skills with Javascript, React and CSS. Building a User Interface for Feedbacks.
+This is a project to improve my skills with Vite, React and CSS. Building a User Interface for Feedbacks.
 
 ## Screens Layout
 <div align="center">
