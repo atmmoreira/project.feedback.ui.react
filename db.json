@@ -11,13 +11,18 @@
       "text": "This is feedback item 2 coming from the backend"
     },
     {
-      "text": "Updated all packages to latest v3",
+      "id": 3,
       "rating": 6,
-      "id": 4
+      "text": "This is feedback item 3 coming from the backend"
     },
     {
-      "text": "This is a new tes without Proxy",
+      "id": 4,
       "rating": 7,
+      "text": "This is feedback item 4 coming from the backend"
+    },
+    {
+      "text": "Textando Feedback Again lll",
+      "rating": 6,
       "id": 5
     }
   ]
