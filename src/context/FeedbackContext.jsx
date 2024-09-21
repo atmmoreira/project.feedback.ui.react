@@ -17,7 +17,7 @@ export const FeedbackProvider = ({ children }) => {
   // Fetch feedback
   const fetchFeedback = async () => {
     const response = await fetch(
-      `https://feedback-ui-opal.vercel.app/feedback?_sort=id&_order=desc`
+      `http://localhost:5173/feedback?_sort=id&_order=desc`
     );
     const data = await response.json();
 
@@ -27,7 +27,7 @@ export const FeedbackProvider = ({ children }) => {
 
   // Add feedback
   const addFeedback = async (newFeedback) => {
-    const response = await fetch("https://feedback-ui-opal.vercel.app/feedback", {
+    const response = await fetch("http://localhost:5173/feedback", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
@@ -43,7 +43,7 @@ export const FeedbackProvider = ({ children }) => {
   // Delete feedback
   const deleteFeedback = async (id) => {
     if (window.confirm("Are you sure you want to delete?")) {
-      await fetch(`https://feedback-ui-opal.vercel.app/feedback/${id}`, { method: "DELETE" });
+      await fetch(`http://localhost:5173/feedback/${id}`, { method: "DELETE" });
 
       setFeedback(feedback.filter((item) => item.id !== id));
     }
@@ -51,7 +51,7 @@ export const FeedbackProvider = ({ children }) => {
 
   // Update feedback item
   const updateFeedback = async (id, updItem) => {
-    const response = await fetch(`https://feedback-ui-opal.vercel.app/feedback/${id}`, {
+    const response = await fetch(`http://localhost:5173/feedback/${id}`, {
       method: "PUT",
       headers: {
         "Content-Type": "application/json",
